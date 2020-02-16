@@ -1,0 +1,63 @@
+body {
+    font-size: large;
+    margin: 140px 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+      lightcoral, lightgreen
+    );
+    background-repeat: no-repeat;
+    background-image: url(
+        "https://wallpaperaccess.com/full/791770.png"
+    );
+    background-size: cover;
+}
+
+button {
+    margin: 20px 20px;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+#buttonParent {
+    text-align: center;
+}
+
+#buttons {
+    display: inline-block;
+    border: 0px;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+#fields {
+    margin: 40px 0px;
+    border: 5px double;
+    padding: 20px;
+    background: rgba(179, 179, 179, 0.651);
+}
+
+#checkBoxes {
+    border: 5px double;
+    padding: 20px;
+    background: rgba(179, 179, 179, 0.651);
+}
+
+#select1 {
+    margin-left: 40px;
+    padding-right: 20px;
+}
+
+#textField1{
+    margin-left: 46px;
+    padding-right: 200px;
+}
+
+#date1 {
+    margin-left: 32px;
+}
+
+#date3 {
+    margin-left: 26px;
+}
